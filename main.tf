@@ -13,7 +13,7 @@ provider "aws" {
         #profile = "default"
 	}
 
-resource "aws_instance" "Shafiqinfra" {
+resource "aws_instance" "Shafiq" {
 	ami = "ami-05ffe3c48a9991133" 
 	instance_type = "t2.micro"
 }
